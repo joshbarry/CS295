@@ -1,0 +1,10 @@
+/* ------------------------------------------ */
+/* -------------- styleMain.css ------------- */
+/* Main style definitions for site containers */
+/* ------------------------------------------ */
+
+#login_frame
+{
+	margin-left:auto;
+	margin-right:auto;
+}
