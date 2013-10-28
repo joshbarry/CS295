@@ -6,8 +6,6 @@ include("session.php");
 //include("tcpcon.inc");
 // Functions and Helpers
 //include("funcs.php");
-// Include LoginHelper if no session found
-if ($_SESSION['user']=="") { include("login_box.php"); }
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
@@ -28,7 +26,7 @@ if ($_SESSION['user']=="") { include("login_box.php"); }
 <body>
 <div id="content">
 <div id="title_wrap">
-<?php if ($_SESSION['user']=="") { include("login_box.php"); } ?>
+<?php /* Include LoginHelper if no session found */ if ($_SESSION['user']=="") { include("login_box.php"); } ?>
 </div>
 </div>
 </body>
