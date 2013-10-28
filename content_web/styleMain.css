@@ -5,6 +5,18 @@
 
 #login_frame
 {
+	min-width:150px;
+	max-width:300px;
 	margin-left:auto;
 	margin-right:auto;
+}
+#error_box
+{
+	min-width:150px;
+	max-width:300px;
+	margin-left:auto;
+	margin-right:auto;
+	font-weight:bold;
+	color:#FF0000;
+	border:1px solid #000;
 }
