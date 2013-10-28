@@ -1,17 +1,8 @@
 <div id="login_frame">
-<?php
-/* If there are errors, display them here. */
-if($errorMsg){
-	echo "<fieldset class='errors'><p style='color: #FF0000'><b>Login failed.</b></p><ul><b>\n";
-	foreach($errorMsg as $err){
-		echo "<li style='color: #FF0000'>" . $err . "</li>\n";
-	}
-	echo "</b></ul></fieldset>\n";
-}
-?>
-<form action="<? print $_SERVER['PHP_SELF']; ?>" method="post" style="margin-left:300px; margin-right:300px;">
+<h1 style="text-align:left;">Psych WebApp</h1>
+<form action="<? print $_SERVER['PHP_SELF']; ?>" method="post" >
 	<fieldset>
-		<h1>Authentication</h1>
+		<h1 style="text-align:center;">Login</h1>
 			
 		<label for="txtUserName">Username:</label><br />
 		<input name="txtUserName" tabindex="210" type="text" size="30" id="txtUserName" <? print "value='$userName'"; ?>/><br />
