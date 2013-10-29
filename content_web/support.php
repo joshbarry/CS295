@@ -84,4 +84,19 @@ function verifyEmail ($testString) {
     return (preg_match("/^([[:alnum:]]|_|\.|-)+@([[:alnum:]]|\.|-)+(\.)([a-z]{2,4})$/", $testString));
 }
 /* ----------------------------------------------------------------------------------------------- */
+/**
+* getIP : Function returns a string value containing the user's remote address seen by the server.
+*
+* Last Updated: 16:58 on October 29, 2013 (Tuesday)
+* 
+* @version 0.1
+* @author Tyler J. Sawyer
+* @access private
+* @return string containing remote address (ip) of user.
+*/ 
+function getIP () {
+    // Return SERVER REMOTE ADDR 
+    return $_SERVER['REMOTE_ADDR'];
+}
+/* ----------------------------------------------------------------------------------------------- */
 ?>
