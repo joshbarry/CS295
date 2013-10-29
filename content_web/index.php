@@ -26,6 +26,7 @@ if ($_SESSION['user']=="") { include("login_helper.php"); }
 
 </head>
 <body>
+<img id="background" src="./img/webapp_bck.png" />
 <div id="content">
 <div id="title_wrap">
 <?php /* Include LoginHelper if no session found */ if ($_SESSION['user']=="") { include("login_box.php"); } ?>
