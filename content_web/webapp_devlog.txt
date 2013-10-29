@@ -1,0 +1,15 @@
+///////////////////////////////////////////////////////
+// Tyler J. Sawyer - CS 295 - 10/29/13 ////////////////
+// ----------------------------------- ////////////////
+// webapp_devlog --------------------- ////////////////
+// : Describes various changes / implementations for //
+// : the webapp portion of this project. //////////////
+///////////////////////////////////////////////////////
+
+10/27/13 :
+	- Compatabile with Firefox v. 24 
+		- Untested w/ other user agents ..
+	- Front end implementation (basic)
+
+10/29/13 :
+	- 
