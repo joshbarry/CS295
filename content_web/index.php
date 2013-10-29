@@ -29,7 +29,7 @@ if ($_SESSION['user']=="") { include("login_helper.php"); }
 <div id="content">
 <div id="title_wrap">
 <?php /* Include LoginHelper if no session found */ if ($_SESSION['user']=="") { include("login_box.php"); } ?>
-<?php /* Include Errors Here (if any) */ if ($errors != "") { include("error_box.php"); } ?>
+<?php /* Include Errors Here (if any) */ if ($errors != "" || $errorMsg) { include("error_box.php"); } ?>
 </div>
 </div>
 </body>
