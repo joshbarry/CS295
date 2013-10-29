@@ -1,5 +1,5 @@
+<h1 style="text-align:center;">Psych WebApp</h1>
 <div id="login_frame">
-<h1 style="text-align:left;">Psych WebApp</h1>
 <form action="<? echo  htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post" >
 	<fieldset>
 		<h1 style="text-align:center;">Login</h1>
