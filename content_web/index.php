@@ -6,7 +6,8 @@ include("session.php");
 //include("tcpcon.inc");
 // Functions and Helpers
 //include("funcs.php");
-$errors = "hello world";
+// Include login_helper if the session does not already exist ..
+if ($_SESSION['user']=="") { include("login_helper.php"); }
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
