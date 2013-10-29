@@ -12,4 +12,4 @@
 	- Front end implementation (basic)
 
 10/29/13 :
-	- 
+	- Compatabile with Firefox V. 24
