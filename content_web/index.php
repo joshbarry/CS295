@@ -23,6 +23,8 @@ if ($_SESSION['user']=="") { include("login_helper.php"); }
 
    <link rel="stylesheet" href="styleMain.css" type="text/css" media="screen" />
    
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script src="jquery.js"></script>
 
 </head>
 <body>
