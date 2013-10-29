@@ -31,6 +31,26 @@ function stringSecure ($string) {
 }
 /* ----------------------------------------------------------------------------------------------- */
 /**
+* stringSanitize : This function verifies the tested input string is 'clean' by removing 
+* unnecessary characters (or tags) and returns the resulting string.
+*
+* Last Updated: 12:45 on October 29, 2013 (Tuesday)
+* 
+* @version 0.1
+* @author Tyler J. Sawyer
+* @access private
+* @param string String to test for any bad/extraneous characters.
+* @return string Resulting 'sanitized' string. 
+*/ 
+function stringSanitize ($string) {
+	// use the filter_var function (PHP 5.2 +) to determine if string is proper.
+	// eg. $string = "<script>Dahaha</script>";
+	// stringSanitize($string)
+	// $string is now "Dahaha".
+	return filter_var($string, FILTER_SANITIZE_STRING);
+}
+/* ----------------------------------------------------------------------------------------------- */
+/**
 * verifyAlphaNum : This function will return a boolean value (true/false) and determines 
 * whether or not a test string contains alpha numeric characters exclusively. 
 *
