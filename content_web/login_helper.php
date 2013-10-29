@@ -15,7 +15,7 @@ if (isset($_POST["cmdAuth"])){
 	// Verify fields have correct information. 
 	//
 	if($userName==""){
-        $errorMsg[]="Please enter a Username.";
+        $errorMsg[]="Please enter a valid Username.";
     } //else {
         //$valid = verifyAlphaNum ($userName); /* test for non-valid  data */
         //if (!$valid){ 
